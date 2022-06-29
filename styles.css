@@ -3,6 +3,8 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* HEADER */
+
 header {
     display: flex;
     justify-content: space-between;
@@ -24,6 +26,8 @@ header p {
     margin: 0px 8px;
     font-size: 18px;
 }
+
+/* SECTION 1 */
 
 .section-1 {
     background-color: #1F2937;
@@ -63,5 +67,39 @@ header p {
     align-items: center;
     background-color: #425876;
     width: 400px;
+    height: 150px;
+}
+
+/* SECTION 2 */
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 0px;
+}
+
+.section-2-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin: 24px 0px;
+}
+
+.section-2-images {
+    display: flex;
+    gap: 32px;
+}
+
+.section-2-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-2-image img {
+    border: #3882F6;
+    border-radius: 8px;
+    width: 150px;
     height: 150px;
 }
