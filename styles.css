@@ -98,8 +98,33 @@ header p {
 }
 
 .section-2-image img {
-    border: #3882F6;
+    border: 3px solid #3882F6;
     border-radius: 8px;
     width: 150px;
     height: 150px;
+}
+
+/* SECTION 3 */
+
+.section-3 {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 128px;
+}
+
+.section-3-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-3-text {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.section-3-quote {
+    align-self: flex-end;
 }
