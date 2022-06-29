@@ -128,3 +128,39 @@ header p {
 .section-3-quote {
     align-self: flex-end;
 }
+
+/* SECTION 4 */
+
+.section-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 64px;
+}
+
+.section-4-container {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 64px;
+    border-radius: 8px;
+    color: #E5E7EB;
+}
+
+.section-4-header {
+    font-weight: 500;
+}
+
+.section-4-subtext {
+    margin: 0px;
+    font-size: 12px;
+}
+
+.section-4-container button {
+    margin-left: 128px;
+    padding: 8px 16px;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    color: #F9FAF8;
+}
