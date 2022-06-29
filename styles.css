@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -19,7 +19,49 @@ header p {
 }
 
 .header-links a {
-    color: #F9FAF8;
+    color: #E5E7EB;
     text-decoration: none;
     margin: 0px 8px;
+    font-size: 18px;
+}
+
+.section-1 {
+    background-color: #1F2937;
+    padding: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-1-left {
+    color: #F9FAF8
+}
+
+.section-1-title {
+    font-size: 48px;
+    font-weight: 800;
+
+}
+
+.section-1-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 8px 0px;
+}
+
+.section-1-left button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.section-1-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #425876;
+    width: 400px;
+    height: 150px;
 }
